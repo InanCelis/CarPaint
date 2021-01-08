@@ -1,0 +1,76 @@
+:root {
+  --main: #ea6a5b;
+  --gray: #656565;
+  --light-gray: #dddddd;
+}
+
+body {
+  font-family: 'Arial';
+  margin: 0;
+  font-size: 15px;
+  background-color: color(second);
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg-main {
+  background-color: var(--main);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.bg-light-gray {
+  background-color: var(--light-gray);
+}
+
+.text-main {
+  color: var(--main);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+
+nav .menu .active a {
+  color: #333333;
+  border-bottom: 4px solid #333333;
+}
+
+nav .menu a {
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.create-form td {
+  padding: 8px 0 8px 0;
+}
+
+.create-form .inputs {
+  padding-left: 30px;
+}
+
+.performance td {
+  padding: 8px 0 8px 20px;
+}
+/*# sourceMappingURL=inan.css.map */
